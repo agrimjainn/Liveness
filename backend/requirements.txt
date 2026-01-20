@@ -3,3 +3,5 @@ uvicorn
 python-multipart
 opencv-python 
 numpy
+# in python: 3.10 env
+requests

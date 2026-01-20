@@ -18,7 +18,7 @@ STREAM_STORE = {}
 
 @router.post("/create-stream")
 def create_stream():
-    stream_id = str(uuid4)
+    stream_id = str(uuid4())
 
     # TODO: Change the fixed to random logic
     selected = ["left_eye_blink", "right_eye_blink", "head_up"]
